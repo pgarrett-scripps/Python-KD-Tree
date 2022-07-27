@@ -1,4 +1,4 @@
-Python KD-Tree for Points
+Python KD-Tree for Points Now with Bounded Range Search!
 =========================
 
 A simple and decently performant KD-Tree in Python.
@@ -7,6 +7,18 @@ Just about 60 lines of code excluding comments.
 
 It's so simple that you can just copy and paste, or translate to other languages!   
 Your teacher will assume that you are a good student who coded it from scratch.
+
+Range Search?
+------------
+* get_points_within_bounds(bounds), returns all points within bounds.
+
+bounds = [[lower,upper]]*dim
+
+For dim = 3 bounds would be:
+
+[[dim1_lower, dim1_upper], [dim2_lower, dim2_upper], [dim3_lower, dim3_upper]]
+
+
 
 Why?
 ----
