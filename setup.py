@@ -1,12 +1,12 @@
 from setuptools import setup
 
 setup(
-    name='kdtree',
-    version='',
+    name='ranged_kdtree',
+    version='1.0.0',
     packages=['kdtree'],
-    url='',
-    license='',
+    url='https://github.com/pgarrett-scripps/ranged_kdtree',
+    license='MIT License',
     author='pgarrett',
     author_email='pgarrett@scripps.edu',
-    description='Basic KdTree with Range Search!',
+    description='Basic KdTree with Range Search',
 )
